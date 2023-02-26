@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>CSS Selectors</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="specialBox"></div>
+        <div class="notSpecialBox"></div>
+        <div class="specialBox blueBox"></div>
+        <div class="notSpecialBox"></div>
+        <div></div>
+    </body>
+</html>
+
+
+
+
+
+
+
+style.css---------------
+
+*{
+    border: 5px solid brown;
+}
+.specialBox,.notSpecialBox{
+    height: 8rem;
+    width: 8rem;
+}
+.specialBox{
+    background-color: yellow;
+}
+.notSpecialBox{
+    background-color: red;
+}
+/* .pink-Border{
+    border: 10px solid pink;
+}
+#blueBox{
+    background-color: blue;
+} */
