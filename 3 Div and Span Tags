@@ -12,3 +12,13 @@
         minima!
     </body>
 </html>
+
+
+
+/*css ----------*/
+div{
+    background-color: yellow;
+}
+span{
+    background-color: green;
+}
